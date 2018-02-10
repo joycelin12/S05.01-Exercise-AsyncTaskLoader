@@ -186,6 +186,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             showErrorMessage();
         } else {
             showWeatherDataView();
+            mForecastAdapter.setWeatherData(data);
         }
     }
     @Override
